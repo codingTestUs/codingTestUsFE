@@ -24,7 +24,7 @@ export default function Navbar() {
     <nav className="border-b">
       <div className="flex items-center p-4 mx-auto" style={{ maxWidth: '85rem' }}>
         <div className="flex-1">
-          <Link to="/" className="text-3xl tracking-tighter">codingTestUs 🧑‍💻</Link>
+          <Link to="/" className="text-3xl tracking-tighter text-bold">codingTestUs 🧑‍💻</Link>
         </div>
         <div className="justify-center flex-1 hidden space-x-8 md:flex">
           <Link to="/" className="font-medium text-md hover:underline">Features</Link>
